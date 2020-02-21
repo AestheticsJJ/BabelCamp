@@ -1,0 +1,115 @@
+.blackBG{
+    background-color: black;
+}
+
+.blackBG p{
+    color: #a2a2a2;
+    align-self: center;
+}
+
+p, label{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.material-icons{
+    color: #a2a2a2;
+}
+
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.home{
+    background-color: #e7e7e7;
+}
+
+.home2{
+    width: auto;
+    background-color: #e7e7e7;
+}
+
+.info-text, #about p{
+    text-align: center;
+    margin: 5%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-box{
+    width: 272;
+    height: 40;
+    border-radius: 3px;
+    border: solid 1px #a2a2a2;
+    background-color: #e7e7e7;
+}
+
+.rectangle {
+    display: flex;
+    width: 136px;
+    height: 40px;
+    border-radius: 3px;
+    border: solid 2px #1c6698;
+    color: #1c6698;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 40 auto;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-rectangle{
+    display: flex;
+    width: 208px;
+    height: 350px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #000000;
+    color: #e7e7e7;
+    margin: 15;
+    padding: 10;
+    align-items: center;
+    flex-direction: column;
+}
+
+#skills-container{
+    display: flex;
+    overflow-y: scroll;
+    align-content: center;
+}
+
+.text-rectangle{
+    margin: 10 auto;
+    width: 180px;
+    height: 20px;
+    border-radius: 3px;
+    border: solid 1px #e7e7e7;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #a2a2a2;
+}
+
+.roboto-text{
+    margin: 0 auto;
+    color: #a2a2a2;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
